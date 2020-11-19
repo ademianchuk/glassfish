@@ -19,7 +19,7 @@
       "nodeType": "${clusterNode.nodeType}",     
       "displayName": "DAS",
       "count": 1,
-      "cloudlets": 16,
+      "cloudlets": 64,
       "startService": false,
       "isClusterSupport": false,
       "isDeploySupport": false,
@@ -32,6 +32,7 @@
     {
     "nodeType": "apache-lb",
     "nodeGroup": "bl2",
+    "cloudlets": 32,
     "count": 1,
     "restartDelay": 30,
     "diskLimit": 50,
@@ -47,6 +48,7 @@
   {
     "nodeType": "maven",
     "nodeGroup": "build2",
+    "cloudlets": 32,
     "count": 1,
     "restartDelay": 30,
     "diskLimit": 50,
