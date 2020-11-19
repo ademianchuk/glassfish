@@ -41,9 +41,7 @@
     "displayName": "Load Balancer 2",
     "scalingMode": "STATEFUL",
     "tag": "2.4.41",
-    "startService": false,
-    "fixedCloudlets": 1,
-    "flexibleCloudlets": 2   
+    "startService": false       
   },
   {
     "nodeType": "maven",
@@ -57,9 +55,7 @@
     "startService": false,
     "displayName": "Build Node 2",
     "scalingMode": "STATELESS",
-    "tag": "3.6.3-zulujdk-8.0.242",
-    "fixedCloudlets": 1,
-    "flexibleCloudlets": 16   
+    "tag": "3.6.3-zulujdk-8.0.242"      
   }
 ]
 }
