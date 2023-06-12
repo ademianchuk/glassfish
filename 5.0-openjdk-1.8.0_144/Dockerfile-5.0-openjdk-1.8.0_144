@@ -1,7 +1,8 @@
-FROM devbeta/glassfish:5.0-openjdk-1.8.0_144
+FROM devbeta.d.jele.io/glassfish:7.0.5-zulujdk-17.0.7
 
 LABEL name="GlassFishA"
-LABEL nodeType="ash-glassfish"
+LABEL nodeType="ad-glassfish"
 LABEL nodeTypeAlias=""
-LABEL cluster="https://raw.githubusercontent.com/annajel/glassfish/master/5.0-openjdk-1.8.0_144/cluster.json"
-ENV ON_ENV_INSTALL=https://raw.githubusercontent.com/annajel/glassfish-cluster/master/addons/auto-cluster.jps
+LABEL lastCompatibleVersion="8.2.1"
+LABEL cluster="https://raw.githubusercontent.com/ademianchuk/glassfish/master/7.0.5-zulujdk-17.0.7/cluster.json"
+ENV ON_ENV_INSTALL=https://raw.githubusercontent.com/ademianchuk/glassfish-cluster/master/addons/auto-cluster.jps
