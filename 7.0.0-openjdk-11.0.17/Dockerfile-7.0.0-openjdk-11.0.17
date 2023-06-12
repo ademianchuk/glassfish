@@ -1,0 +1,8 @@
+FROM devbeta.d.jele.io/glassfish:7.0.0-openjdk-11.0.17
+
+
+LABEL name="GlassFish_AD"
+LABEL nodeType="ad-glassfish"
+LABEL nodeTypeAlias=""
+LABEL lastCompatibleVersion="7.3.2"
+LABEL cluster="https://raw.githubusercontent.com/ademianchuk/glassfish/master/7.0.0-openjdk-11.0.17/cluster.json" 
